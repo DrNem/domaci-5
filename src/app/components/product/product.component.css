@@ -1,0 +1,61 @@
+.list-item{
+    text-decoration: none;
+    color: black;
+    word-spacing: 2px;
+}
+
+.second-row{
+    min-height: 33vh;
+}
+
+.name .price{
+    font-weight: 500;
+}
+.description{
+    font-size: 15px;
+}
+
+input{
+    width: 90px;
+    height: 30px;   
+    border-color:rgba(115, 115, 115, 1); 
+}
+
+.add-cart{
+    font-size: 14px;
+}
+
+.prev-next{
+   
+    border: none;
+    background-color: transparent;
+
+}
+
+
+h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom:10px;
+}
+
+
+/* modal */
+
+.modal-content{
+    border: solid 2px black;
+    
+}
+
+.backdrop{
+    background-color:rgba(115, 115, 115, 0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 2;
+}
+
+
+

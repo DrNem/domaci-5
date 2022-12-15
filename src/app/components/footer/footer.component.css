@@ -1,0 +1,15 @@
+.footer{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-bottom: 3px;
+    height: 5vh;
+    text-align: center;
+    
+}
+
+@media (max-width: 992px){   
+    .footer{
+     height: 2vh;
+    }
+ }
+

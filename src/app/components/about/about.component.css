@@ -1,0 +1,12 @@
+#background-img{
+    background-image: url('/assets/MACRO_PLP_BANNER.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 450px; 
+    color: white;  
+}
+.about-text{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}

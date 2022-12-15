@@ -1,0 +1,36 @@
+.sidebar-nav {
+  height: 250px;
+  width: fit-content;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  right: 0;
+  background-color: gainsboro;
+  overflow-x: hidden;  
+  padding-right: 7px; 
+  padding-left: 10px; 
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px; 
+  
+  
+}
+
+.icon{
+  color: rgb(32, 32, 32);
+  font-size: 18px;  
+}
+
+.fb:hover{
+   color: rgb(60, 90, 154);
+  
+}
+.tw:hover{
+  color:rgb(29, 161, 242);
+}
+.p:hover, .yt:hover{
+  color:rgb(255, 0, 0);
+}
+.in:hover{
+  color: rgb(201, 37, 179);
+}
+

@@ -1,0 +1,14 @@
+.product {
+    font-weight:500;
+}
+
+p{
+    font-weight: 400;
+    word-spacing: normal;
+   
+}
+
+#price{
+    font-size: large;
+    font-weight: 400;
+}

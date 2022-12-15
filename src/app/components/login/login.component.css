@@ -1,0 +1,36 @@
+.login-form{
+    background-image: url('/assets/loginBackground.jpg');
+    height: 89vh;
+    background-position: center
+}
+.login-text{
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+a{
+    color:black;
+}
+.signup-text{
+    font-size: 10px;
+    padding-top: 0;
+}
+
+.help-block{
+    color: red;
+    font-size: 12px;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+button{
+    border:none;
+}
+
+@media (max-width: 992px){   
+   .login-form{
+    min-height: 92vh;
+   }
+}

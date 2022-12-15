@@ -1,0 +1,155 @@
+/* home slika */
+h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+#home-background{
+    background-image: url('/assets/flowerBackground1.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px; 
+    padding-right: 60px;
+    margin-bottom: 20px;
+    
+}
+
+#background-text{
+    font-size: 17px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+#home_about{
+    font-size: 18px;
+    
+}
+
+/* shop */
+.flower-img{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    align-items: center;
+}
+
+.shop-link{
+    color: white;
+    text-decoration: none;
+}
+.loadMore{
+   width: 120px;
+}
+
+/* informacije i forma */
+.informations{
+    gap: 40px;
+   
+}
+
+.form-control{
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 0;    
+    box-shadow: white;    
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255);
+   
+}
+
+.btn-send{
+    width: 65px;
+    
+
+}
+
+
+/* leva strana */
+.send-get-well{
+    min-height:fit-content;
+    
+}
+.pink-bcgrnd{
+    min-height: 500px;
+    background-color: rgb(254,174,184);
+    color:white;
+}
+
+#well-wish-text{
+    font-size: 18px;
+}
+
+.shop-button{
+    border-radius: 30px;
+    padding: 2px 12px;
+    font-size: 14px;   
+}
+
+/* desna strana */
+.bouquet{
+    min-height: 500px;
+    background-image: url('/assets/FTD_SplitBanner_Merx_1.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+@media (max-width: 990px){ 
+      
+    h1 {
+        font-size: 35px;
+    }
+    #background-text{
+        font-size: 15px;
+    }
+    .shop1-btn{
+        width: 132px;
+        font-size: 0.9rem;
+    }
+    #home_about{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 18px!important;
+    }
+    .img-fluid{
+        width: 306px;
+        height: auto;   
+    }
+    h2{
+        font-size: 28px;
+    }    
+    
+}
+@media (max-width: 765px){   
+    h1 {
+        font-size: 30px;
+    }
+    #background-text{
+        font-size: 15px;
+    }
+    .shop1-btn{
+        width: 125px;
+        font-size: 0.8rem;
+    }
+     #home_about{
+        font-size: 14px;
+    }
+
+    .price{
+        font-size: 16px!important;
+    }
+
+    .img-fluid{
+        width: 300px;
+        height: auto;   
+    }
+    h2{
+        font-size: 26px;
+    }    
+
+}
